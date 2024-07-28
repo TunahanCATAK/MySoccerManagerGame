@@ -12,6 +12,7 @@ set(SOURCE_FILES
 
 # Include directories
 include_directories(include)
+add_subdirectory(libs/SMRepository)
 add_subdirectory(tests)
 
 # Add third party libraries
@@ -22,7 +23,7 @@ add_subdirectory(third_party/googletest)
 add_executable(MySoccerManagerGame ${SOURCE_FILES})
 
 # Link libraries
-# target_link_libraries(MySoccerManagerGame)
+target_link_libraries(MySoccerManagerGame SMRepository)
 
 # Specify the output directory for the build
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/bin)

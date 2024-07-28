@@ -1,15 +1,17 @@
 # Create a test executable
 set(TEST_SOURCES
         test_main.cpp
+        test_ExampleRepository.cpp
         )
 
 add_executable(RunUnitTests ${TEST_SOURCES})
 
 # Link test executable against gtest & gtest_main
-target_link_libraries(RunUnitTests gtest gtest_main)
+target_link_libraries(RunUnitTests gtest gtest_main SMRepository)
 
 # Include directories
 include_directories(${PROJECT_SOURCE_DIR}/include)
+include_directories(${PROJECT_SOURCE_DIR}/libs/SMRepository)
 
 # Add test target
 enable_testing()
