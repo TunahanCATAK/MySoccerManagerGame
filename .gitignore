@@ -1,0 +1,142 @@
+# Compiled Object files
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+*.def
+*.exp
+
+# Shared objects (Linux)
+*.so
+*.so.*
+
+# Dynamic Libraries (Mac)
+*.dylib
+
+# Windows DLL
+*.dll
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+*.mod
+*.exp
+
+# CLion
+.idea/
+cmake-build-debug/
+cmake-build-release/
+cmake-build-relwithdebinfo/
+cmake-build-minsizerel/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Temporary files
+*.tmp
+*.temp
+
+# Backup files
+*.bak
+*.swp
+*.swo
+*.swn
+*~
+
+# Hidden folders
+.*.swp
+.*.swo
+.*.swn
+*~
+
+# User-specific files
+*.iml
+*.ipr
+*.iws
+*.sublime-workspace
+*.sublime-project
+
+# CLion CMake-specific
+cmake-build-*/
+
+# JetBrains IDE files
+*.idea/
+*.iws
+*.iml
+*.ipr
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Test binaries
+tests/bin/
+
+# Generated Files
+*.gen.*
+
+# CLion config files
+.idea/
+.idea_modules/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/dictionaries
+.idea/libraries
+.idea/assetWizard.xml
+.idea/codeStyles/
+.idea/modules.xml
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+.idea/sqlDataSources.xml
+.idea/assetLibraries.xml
+
+# Backup and IDE config
+*.orig
+*.~*
+
+# Build directories
+/build/
+/out/
+/bin/
+/Debug/
+/Release/
+/x64/Release/
+/x64/Debug/
+/ipch/
+/obj/
+/ipdb/
+/*.vcxproj.*
+
+
